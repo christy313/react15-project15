@@ -14,7 +14,7 @@ const App = () => {
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/react15-project15">
             <Home />
           </Route>
           <Route path="/about">
