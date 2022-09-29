@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/cocktail/:id">
             <SingleCocktail />
           </Route>
-          <Route path="*">
+          <Route path="/*">
             <Error />
           </Route>
         </Switch>
