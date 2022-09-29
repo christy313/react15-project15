@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 // import pages
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -14,13 +14,13 @@ const App = () => {
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/react15-project15">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/react15-project15/about">
+          <Route path="/about">
             <About />
           </Route>
-          <Route path="/react15-project15/cocktail/:id">
+          <Route path="/cocktail/:id">
             <SingleCocktail />
           </Route>
           <Route path="*">
