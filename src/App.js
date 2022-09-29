@@ -17,10 +17,10 @@ const App = () => {
           <Route exact path="/react15-project15">
             <Home />
           </Route>
-          <Route path="/about">
+          <Route path="/react15-project15/about">
             <About />
           </Route>
-          <Route path="/cocktail/:id">
+          <Route path="/react15-project15/cocktail/:id">
             <SingleCocktail />
           </Route>
           <Route path="*">
